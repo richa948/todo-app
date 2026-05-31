@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>To-Do-List</title>
+  </head>
+  <body class="bg-gray-900 text-white flex justify-center">
+    <div class="container">
+      <h1>To do List</h1>
+      <div class="input-container">
+        <input type="text" id="todo-input" placeholder="Add a new task..." />
+        <button id="add-task-btn">Add Task</button>
+      </div>
+      <ul id="todo-list"></ul>
+
+
+      <button id="history-btn">History</button>
+
+      <div id="history-section">
+        <h2>Deleted tasks</h2>
+        <ul id="history-list"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
